@@ -135,7 +135,7 @@ if(isset($_REQUEST["action"])){
 		require_once("WSFactDealer.php");
 
 		// Format codigoSap con 10 digitos y rellenar hacia la izquierda con CEROS!!
-		$codigoSapTemp = $_SESSION["codigoSap"];
+		$codigoSapTemp = $_SESSION["a"];
 		$codigoSapArr = array();
 		$codigoSapArr = str_split($codigoSapTemp);
 		$cerosArr = array();
